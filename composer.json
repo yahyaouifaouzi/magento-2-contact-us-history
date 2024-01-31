@@ -1,0 +1,22 @@
+{
+    "name": "ideas2d/module-contactushistory",
+    "description": "Magento 2 Contact Us History Module",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Faouzi Yahyaoui",
+            "email": "info@ideas2d.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ideas2d\\ContactUsHistory\\": ""
+        }
+    }
+}
